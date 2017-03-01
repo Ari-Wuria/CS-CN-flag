@@ -7,8 +7,8 @@
     <ProjectGuid>{DD4B1A95-6484-409B-834F-338CA5C53BE6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShroomPack</RootNamespace>
-    <AssemblyName>ShroomPack</AssemblyName>
+    <RootNamespace>ShroomblazeFlags</RootNamespace>
+    <AssemblyName>ShroomblazeFlags</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,23 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ShroomPack.cs" />
+    <Compile Include="ShroomblazeFlags.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ICities">
       <HintPath>..\..\..\..\..\Games\Steam\steamapps\common\Cities_Skylines\Cities_Data\Managed\ICities.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="flag_business.png" />
-    <Content Include="flag_business_lod.png" />
-    <Content Include="flag_colors.png" />
-    <Content Include="flag_colors2.png" />
-    <Content Include="flag_colors2_lod.png" />
-    <Content Include="flag_colors_lod.png" />
-    <Content Include="flag_hippy.png" />
-    <Content Include="flag_hippy_lod.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

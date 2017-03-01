@@ -1,17 +1,17 @@
 ﻿using ICities;
 
-namespace ShroomPack
+namespace ShroomblazeFlags
 {
-    public class ShroomPack : IUserMod
+    public class ShroomblazeFlags : IUserMod
     {
         public string Name
         {
-            get { return "Shroom flag pack"; }
+            get { return "Shroomblaze Flags"; }
         }
 
         public string Description
         {
-            get { return "Shroom flag pack"; }
+            get { return "Shroomblaze Flags"; }
         }
 
         public string[][] CustomFlags()
