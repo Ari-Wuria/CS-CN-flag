@@ -21,7 +21,8 @@ namespace ShroomPack
                 new[] {"hippy", "Hippy"},
                 new[] {"colors", "Colors #1"},
                 new[] {"colors2", "Colors #2"},
-                new[] {"business", "Business"}
+                new[] {"business", "Business"},
+                new[] {"chirpy", "Chirpy"}
             };
         }
     }
