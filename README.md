@@ -1,2 +1,2 @@
-# Skylines-ShroomPack
-Shroomblaze flags pack for game Cities: Skylines
+# Skylines-CN Flags
+Flags for China
